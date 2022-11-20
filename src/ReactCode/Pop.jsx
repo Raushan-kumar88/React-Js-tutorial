@@ -10,7 +10,7 @@ function Pop() {
         <h1>Onevent click</h1>
         <h3>{name}</h3>
         <input type="submit" onClick={demo} /><br/>
-        <button onClick={() => demo()}>Another method</button>
+        <button onClick={() => demo()}>Another button</button>
     </>
   )
 }
