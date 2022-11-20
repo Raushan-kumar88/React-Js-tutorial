@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from "react";
+// import './index.css'
+import Pop from './ReactCode/Pop';
 
+ import FunctionComponent from './ReactCode/FunctionComponent';
+ import ClassComponent from './ReactCode/ClassComponent';
 function App() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='`mx-auto  mb-4 py-5 px-32 bg-gradient-to-br  h-fit  }`'>
+  
+      <h1>React Tutorial.....</h1>
+      <FunctionComponent />
+      <ClassComponent />
+      <Pop/>
+    
     </div>
   );
 }
