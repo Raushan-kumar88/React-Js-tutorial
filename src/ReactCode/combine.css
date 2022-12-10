@@ -1,0 +1,25 @@
+.demo{
+    background: transparent;
+    border: 1px solid black;
+    position: relative;
+    height: 120px;
+    
+}
+.demo h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: blanchedalmond;
+}
+.demo button{
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 70%;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid blue;
+    font-size: 18px;
+    background: lightgreen;
+}

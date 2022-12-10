@@ -3,9 +3,12 @@ import './App.css';
 import React from "react";
 // import './index.css'
 import Pop from './ReactCode/Pop';
-
- import FunctionComponent from './ReactCode/FunctionComponent';
- import ClassComponent from './ReactCode/ClassComponent';
+import State from './ReactCode/State';
+import FunctionComponent from './ReactCode/FunctionComponent';
+import ClassComponent from './ReactCode/ClassComponent';
+import Class2 from './ReactCode/Class2';
+// import {Function2} from './Function2'; //test without import any function...
+import State2 from './ReactCode/State2';
 function App() {
 
   
@@ -16,7 +19,10 @@ function App() {
       <FunctionComponent />
       <ClassComponent />
       <Pop/>
-    
+      <State/>
+      {/* <Function2/> */}
+      <Class2/>
+      <State2/>
     </div>
   );
 }
