@@ -10,6 +10,8 @@ import Class2 from './ReactCode/Class2';
 // import {Function2} from './Function2'; //test without import any function...
 import State2 from './ReactCode/State2';
 import StateClass from './ReactCode/StateClass';
+import PropsFunction from './ReactCode/PropsFunction';
+import GetData from './ReactCode/GetData';
 function App() {
 
   
@@ -25,6 +27,8 @@ function App() {
       <Class2/>
       <State2/>
       <StateClass/>
+      <PropsFunction name={"Karan"} email={"raushan@gmail.com"} other={{address:'delhi',Mobile:900}}/>
+      <GetData/>
     </div>
   );
 }
