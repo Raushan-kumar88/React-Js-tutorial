@@ -9,6 +9,7 @@ import ClassComponent from './ReactCode/ClassComponent';
 import Class2 from './ReactCode/Class2';
 // import {Function2} from './Function2'; //test without import any function...
 import State2 from './ReactCode/State2';
+import StateClass from './ReactCode/StateClass';
 function App() {
 
   
@@ -23,6 +24,7 @@ function App() {
       {/* <Function2/> */}
       <Class2/>
       <State2/>
+      <StateClass/>
     </div>
   );
 }
