@@ -1,24 +1,24 @@
-import React, {useState} from 'react'
+import React,{useState} from 'react'
 
 function GetData() {
-    const [data,putdata]=useState(null)
-    const [print,setPrint]=useState(false)
-    function Demo(val){
-        console.log(val.target.value)
-        putdata(val.target.value)
-    }
+  const [data,setData]=useState(null)
+  const [print1,getdata1]=useState(false)
+  function getData(val){
+    console.warn(val.target.value)
+    setData(val.target.value)
+    getdata1(false)
+  }
   return (
     <div>
         {
-            print?
-            <h1> {data} </h1> 
-            :null
+          print1?
+          <h1>{data}</h1>
+          :false
         }
-        {/* <h1> name : {data}</h1> */}
-        <input type="text" onchange={Demo} />
-        <button onClick={()=>setPrint(true)}>Put data</button>
+      <input type="text" onChange={getData}/>
+      <button onClick={()=>getdata1(true)}>get data</button>
     </div>
-  );
+  )
 }
 
 export default GetData

@@ -23,3 +23,71 @@
     font-size: 18px;
     background: lightgreen;
 }
+
+.toggle{
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.toggle button{
+    background: white;
+    color: black;
+    border: 1px solid red;
+    width: 100px;
+    cursor: pointer;
+    margin: 20px;
+}
+.toggle button:hover{
+    background: lightgreen;
+    transition: all 0.5s;
+    border: 1px solid blue;
+}
+
+.form{
+    background: lightblue;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+    height: 230px;
+}
+.form h1{
+    margin: 20px;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.form form{
+    width: 100%;
+}
+.form form input{
+    width: 450px;
+    height: 30px;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    outline: none;
+    
+}
+.form form button{
+    background: white;
+    color: black;
+    border: 1px solid red;
+    width: 100px;
+    cursor: pointer;
+    /* margin: 20px; */
+    height: 40px;
+}
+.form fomr button:hover{
+    background: lightgreen;
+    transition: all 0.5s;
+    border: 1px solid blue;
+}
+.form form span{
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 12px;
+}

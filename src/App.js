@@ -12,6 +12,10 @@ import State2 from './ReactCode/State2';
 import StateClass from './ReactCode/StateClass';
 import PropsFunction from './ReactCode/PropsFunction';
 import GetData from './ReactCode/GetData';
+import HideShow from './ReactCode/HideShow';
+import FormData from './ReactCode/FormData';
+import Ifelse from './ReactCode/Ifelse';
+import FormValidation from './ReactCode/FormValidation';
 function App() {
 
   
@@ -29,6 +33,10 @@ function App() {
       <StateClass/>
       <PropsFunction name={"Karan"} email={"raushan@gmail.com"} other={{address:'delhi',Mobile:900}}/>
       <GetData/>
+      <HideShow/>
+      <FormData/>
+      <Ifelse/>
+      <FormValidation/>
     </div>
   );
 }
