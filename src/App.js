@@ -16,9 +16,20 @@ import HideShow from './ReactCode/HideShow';
 import FormData from './ReactCode/FormData';
 import Ifelse from './ReactCode/Ifelse';
 import FormValidation from './ReactCode/FormValidation';
+// import FunctionProps from './ReactCode/FunctionProps';
+import Render1 from './ReactCode/Render1';
+import ComponentDidmount from './ReactCode/ComponentDidmount';
+import ComponetDidUpdate from './ReactCode/ComponetDidUpdate';
+// import Toogle2 from './ReactCode/Toogle2';
+import ReactHook from './ReactCode/ReactHook';
 function App() {
 
+  // function Data(){
+  //   alert("demo test")
+  // }
   
+  // const[name,setName]=useState("Raushan kumar");
+
   return (
     <div className='`mx-auto  mb-4 py-5 px-32 bg-gradient-to-br  h-fit  }`'>
   
@@ -37,6 +48,14 @@ function App() {
       <FormData/>
       <Ifelse/>
       <FormValidation/>
+      {/* <FunctionProps data={Data} /> */}
+      <Render1 />
+      {/* <button onClick={()=>setName("Rahul")}>Update name</button> */}
+      <ComponentDidmount />
+      <ComponetDidUpdate/>
+      {/* <Toogle2/> */}
+      <ReactHook/>
+      
     </div>
   );
 }
