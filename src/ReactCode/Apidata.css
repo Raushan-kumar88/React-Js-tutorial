@@ -1,0 +1,39 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.api{
+    /* width: 90%; */
+    background: rgb(135, 187, 240);
+    text-align: center;
+    /* background: black; */
+    
+}
+.api h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+.api table{
+    background-color: rgb(216, 240, 175);
+    width: 100%;
+    margin: 10px;
+}
+.api table tr{
+    padding: 20px;
+    font-size: 20px;
+}
+.api table tr:nth-child(even){
+    background-color: #a4c4b1;
+}
+.api input{
+    padding: 2px 20px;
+    width: 400px;
+    border: 1px solid gray;
+    outline: none;
+    height: 40px;
+    border-radius: 10px;
+
+}
