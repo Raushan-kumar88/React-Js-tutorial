@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 // import Api_data from './ReactCode/Api_data';
 import reportWebVitals from './reportWebVitals';

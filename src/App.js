@@ -23,6 +23,7 @@ import ComponetDidUpdate from './ReactCode/ComponetDidUpdate';
 // import Toogle2 from './ReactCode/Toogle2';
 import ReactHook from './ReactCode/ReactHook';
 import UseEffect2 from './ReactCode/UseEffect2';
+import Bootstraps from './ReactCode/Bootstraps';
 function App() {
 
   // function Data(){
@@ -57,6 +58,7 @@ function App() {
       {/* <Toogle2/> */}
       <ReactHook/>
       <UseEffect2/>
+      <Bootstraps/>
     </div>
   );
 }
