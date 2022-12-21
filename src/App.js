@@ -22,6 +22,7 @@ import ComponentDidmount from './ReactCode/ComponentDidmount';
 import ComponetDidUpdate from './ReactCode/ComponetDidUpdate';
 // import Toogle2 from './ReactCode/Toogle2';
 import ReactHook from './ReactCode/ReactHook';
+import UseEffect2 from './ReactCode/UseEffect2';
 function App() {
 
   // function Data(){
@@ -55,7 +56,7 @@ function App() {
       <ComponetDidUpdate/>
       {/* <Toogle2/> */}
       <ReactHook/>
-      
+      <UseEffect2/>
     </div>
   );
 }
