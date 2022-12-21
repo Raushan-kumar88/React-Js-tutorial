@@ -24,6 +24,8 @@ import ComponetDidUpdate from './ReactCode/ComponetDidUpdate';
 import ReactHook from './ReactCode/ReactHook';
 import UseEffect2 from './ReactCode/UseEffect2';
 import Bootstraps from './ReactCode/Bootstraps';
+import MapFunction from './MapFunction';
+
 function App() {
 
   // function Data(){
@@ -59,6 +61,7 @@ function App() {
       <ReactHook/>
       <UseEffect2/>
       <Bootstraps/>
+      <MapFunction/>
     </div>
   );
 }
