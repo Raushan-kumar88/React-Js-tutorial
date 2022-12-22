@@ -9,9 +9,9 @@ function Ifelse() {
   return (
     <div>
         {
-            loginin==1?
+            loginin===1?
             <h1>user1</h1>
-            :loginin==2?
+            :loginin===2?
             <h1>user2</h1>
             :<h1>guest</h1>
         }

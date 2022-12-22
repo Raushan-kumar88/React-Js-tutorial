@@ -25,6 +25,8 @@ import ReactHook from './ReactCode/ReactHook';
 import UseEffect2 from './ReactCode/UseEffect2';
 import Bootstraps from './ReactCode/Bootstraps';
 import MapFunction from './MapFunction';
+import Reusecomponent from './ReactCode/Reusecomponent';
+import LiftingParent from './ReactCode/LiftingParent';
 
 function App() {
 
@@ -62,6 +64,9 @@ function App() {
       <UseEffect2/>
       <Bootstraps/>
       <MapFunction/>
+      <Reusecomponent/>
+      <LiftingParent/>
+      
     </div>
   );
 }
