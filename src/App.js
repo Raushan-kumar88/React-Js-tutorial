@@ -27,6 +27,7 @@ import Bootstraps from './ReactCode/Bootstraps';
 import MapFunction from './MapFunction';
 import Reusecomponent from './ReactCode/Reusecomponent';
 import LiftingParent from './ReactCode/LiftingParent';
+import Purecomponent from './ReactCode/Purecomponent';
 
 function App() {
 
@@ -66,7 +67,7 @@ function App() {
       <MapFunction/>
       <Reusecomponent/>
       <LiftingParent/>
-      
+      <Purecomponent/>
     </div>
   );
 }

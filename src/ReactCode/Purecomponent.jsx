@@ -1,6 +1,7 @@
-import React, { PureComponent } from "react";
+import React, {Component } from "react";
 import { Button } from "react-bootstrap";
-class Purecomponent extends PureComponent{
+import Purecomponentprops from "./Purecomponentprops";
+class Purecomponent extends Component{
     constructor(){
         super();
         this.state={
@@ -8,12 +9,15 @@ class Purecomponent extends PureComponent{
         }
     }
     render(){
+        console.log("checking rerendring.")
         return(
             <>
-                <h1>Pure component</h1>
-                <Button>PureComponent : {this.state.count}</Button>
+                <Purecomponentprops data={this.state.count}/>
+                <Button onClick={()=>this.setState({count:this.state.count+1})}>PureComponent </Button>
             </>
         )
     }
 }
 export default Purecomponent
+// pure Component is basically used for if value is changed than updated state
+// if value is same than state is not re rendring
