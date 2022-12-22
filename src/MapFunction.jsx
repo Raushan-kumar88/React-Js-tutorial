@@ -2,16 +2,16 @@ import React from 'react'
 import Table from 'react-bootstrap/Table';
 const data=[
     {
-        id:'1',name:"Raushan",phone:'838',Email:"rk@gmail.com"
+        name:"Raushan",phone:'838',Email:"rk@gmail.com"
     },
     {
-        id:'2',name:"Karan",phone:'832',Email:"kr@gmail.com"
+        name:"Karan",phone:'832',Email:"kr@gmail.com"
     },
     {
-        id:'3',name:"Shyam",phone:'800',Email:"shyam@gmail.com"
+        name:"Shyam",phone:'800',Email:"shyam@gmail.com"
     },
     {
-        id:'4',name:"Khushi",phone:'111',Email:"khushi@gmail.com"
+        name:"Khushi",phone:'111',Email:"khushi@gmail.com"
     }
 ]
 function MapFunction() {
@@ -27,13 +27,15 @@ function MapFunction() {
           </thead>
           <tbody>
           {
-            data.map((dt)=>
-            <tr>
-              <td>{dt.id}</td>
+            data.map((dt,i)=>
+            /* dt.phone==='111'? */
+            <tr key={i}>
+              <td>{i+1}</td>
               <td>{dt.name}</td>
               <td>{dt.phone}</td>
               <td>{dt.Email}</td>
             </tr>
+            /* :null */
           )
           }
           </tbody>
