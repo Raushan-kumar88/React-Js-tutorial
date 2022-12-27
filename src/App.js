@@ -28,6 +28,11 @@ import MapFunction from './MapFunction';
 import Reusecomponent from './ReactCode/Reusecomponent';
 import LiftingParent from './ReactCode/LiftingParent';
 import Purecomponent from './ReactCode/Purecomponent';
+import UsememoHook from './ReactCode/UsememoHook';
+import RefUse from './ReactCode/RefUse';
+import ForwardRef from './ReactCode/ForwardRef';
+import Uncontrolledcomponent from './ReactCode/Uncontrolledcomponent';
+import Hoccounter from './ReactCode/Hoccounter';
 
 function App() {
 
@@ -68,6 +73,11 @@ function App() {
       <Reusecomponent/>
       <LiftingParent/>
       <Purecomponent/>
+      <UsememoHook/>
+      <RefUse/>
+      <ForwardRef/>
+      <Uncontrolledcomponent/>
+      <Hoccounter/>
     </div>
   );
 }

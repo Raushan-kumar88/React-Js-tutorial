@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import App from './App';
 // import Api_data from './ReactCode/Api_data';
+
 import reportWebVitals from './reportWebVitals';
+import App2 from './App2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <App2/>
     {/* <Api_data/> */}
   </React.StrictMode>
 );
