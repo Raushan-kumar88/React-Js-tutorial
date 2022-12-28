@@ -1,20 +1,24 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+// import { Navbar, NavLink } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import './style.css';
 function Navbarr() {
   return (
     <>
-      <Navbar className='demo'>
-        <ul >
+      
+        <ul className='demo'>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink style={({isActive})=>{return{color:isActive ? 'skyblue' : ''}}} className="nav-link" to="/">Home</NavLink>
           </li>
-          <li><Link to="/About">about</Link></li>
-          <li><Link to="/kkj">Contact</Link></li>
+          <li><NavLink className="nav-link" to="/About">about</NavLink></li>
+          <li><NavLink className="nav-link" to="/Invalid">Contact</NavLink></li>
+          <li><NavLink className="nav-link" to="/Filter">Filter</NavLink></li>
+
+          
+
 
         </ul>
-      </Navbar>
+      
     </>
   )
 }
