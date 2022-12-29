@@ -6,6 +6,10 @@ import Navbarr from './RounterSetup/Navbarr'
 import Page404 from './RounterSetup/Page404'
 import User from './RounterSetup/User'
 import Filter from './RounterSetup/Filter'
+import Contact from './RounterSetup/Contact'
+import Company from './RounterSetup/Company'
+import Channel from './RounterSetup/Channel'
+import Other from './RounterSetup/Other'
 
 function App2() {
   return (
@@ -19,6 +23,14 @@ function App2() {
                 <Route path='/*' element={<Page404/>}/>
                 <Route path='/User/:name' element={<User/>}/>
                 <Route path='/Filter' element={<Filter/>}/>
+                
+                {/* here is nested routing */}
+                <Route path='/contact' element={<Contact/>}>
+                    <Route path='company' element={<Company/>}/>
+                    <Route path='channel' element={<Channel/>}/>
+                    <Route path='other' element={<Other/>}/>
+                </Route>
+                
             </Routes>
         </Router>
     

@@ -9,7 +9,7 @@ function About() {
         <p>Learn how to create a fast and awesome responsive website that will work on all devices, PC, laptop, tablet, and phone.
 
         </p>
-          <li><NavLink className="nav-link" to="/User/Anil">Anil</NavLink></li>
+          <li><NavLink className="nav-link" to="/User/Anil" state={{name:'Raushan',age:22}}>Anil</NavLink></li>
           <li><NavLink className="nav-link" to="/User/Raushan">Raushan</NavLink></li>
           
     </div>

@@ -3,27 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .demo{
-    background: black;
-    color: white;
-    height: 80px;
-    align-items: center;
-    justify-content: center;
 
-    padding: 20px;
-} */
-.demo{
-    display: inline-flex;
-    /* align-items: left; */
-    padding: 10px 20px;
+.demo {
+    padding: 5px 20px;
     background: black;
     width: 100%;
-    line-height: 60px;
-    justify-content: flex-end;
+    /* line-height: 60px; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
 }
-.demo li{
+.demo ul{
+    line-height: 60px;
+    display: flex;
+    
+}
+.demo ul li{
     list-style: none;
-    margin: 0px 40px;
+    margin: 0px 20px;
     font-size: 20px;
     color: white;
 }
@@ -38,5 +36,18 @@
     color: aquamarine;
     transition: all 0.5s linear;
     text-decoration: underline;
+}
+.nav2{
+    background: transparent;
+    padding: 20px 20px;
+
+
+}
+.nav2 .nav1{
+    color: red;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
