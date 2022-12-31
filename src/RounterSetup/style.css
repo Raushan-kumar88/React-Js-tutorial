@@ -23,8 +23,18 @@
     list-style: none;
     margin: 0px 20px;
     font-size: 20px;
+    color: black;
+}
+
+.demo ul li .user{
     color: white;
 }
+
+.demo ul li button{
+    background: transparent;
+    color: white;
+}
+
 .nav-link{
     text-decoration: none ;
     color: white;
@@ -51,3 +61,29 @@
     text-decoration: none;
 }
 
+.form{
+    background: transparent;
+    text-align: center;
+
+}
+.form h1{
+    margin: 20px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px blue;
+}
+.form input{
+    width: 300px;
+    padding: 5px 20px;
+    line-height: 30px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    text-transform: capitalize;
+}
+.form button{
+    width: 150px;
+    margin: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}

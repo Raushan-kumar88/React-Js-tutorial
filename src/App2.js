@@ -10,6 +10,8 @@ import Contact from './RounterSetup/Contact'
 import Company from './RounterSetup/Company'
 import Channel from './RounterSetup/Channel'
 import Other from './RounterSetup/Other'
+// import Login from './RounterSetup/Login'
+// import Protected from './RounterSetup/Protected'
 
 function App2() {
   return (
@@ -18,11 +20,15 @@ function App2() {
         <Navbarr/>
             <Routes>
             
-                <Route path='/' element={<Home2/>} />
-                <Route path='/about' element={<About/>} />
+                {/* <Route path='/' element={<Protected Component={Home2} />} /> */}
+                <Route path='/' element={<Home2/>}/>
+                {/* <Route path='/login' element={<Login/>}/> */}
+                {/* <Route path='/about' element={<Protected Component={About}/>} /> */}
+                <Route path='/about' element={<About/>}/>
+
                 <Route path='/*' element={<Page404/>}/>
                 <Route path='/User/:name' element={<User/>}/>
-                <Route path='/Filter' element={<Filter/>}/>
+                <Route path='/filter' element={<Filter/>}/>
                 
                 {/* here is nested routing */}
                 <Route path='/contact' element={<Contact/>}>

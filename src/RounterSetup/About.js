@@ -1,3 +1,4 @@
+// import { Button } from 'bootstrap'
 import React from 'react'
 // import { NavLink } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
@@ -11,7 +12,7 @@ function About() {
         </p>
           <li><NavLink className="nav-link" to="/User/Anil" state={{name:'Raushan',age:22}}>Anil</NavLink></li>
           <li><NavLink className="nav-link" to="/User/Raushan">Raushan</NavLink></li>
-          
+          {/* <Button>Raushan</Button> */}
     </div>
   )
 }
