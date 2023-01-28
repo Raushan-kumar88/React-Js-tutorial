@@ -6,7 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Api_data from './ReactCode/Api_data';
 import { Auth0Provider } from "@auth0/auth0-react";
 import reportWebVitals from './reportWebVitals';
-import App2 from './App2';
+// import App2 from './App2';
+import App3 from './App3';
+import {BrowserRouter as Router} from 'react-router-dom'
 // import {AppProvider} from "./context";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +20,12 @@ root.render(
   >
     
         {/* <App /> */}
-      <App2/>
+      {/* <App2/> */}
         {/* <Api_data/> */}
+        <Router>
+        <App3/>
+        </Router>
+        
    
    
   </Auth0Provider>
